@@ -1,5 +1,5 @@
 const student = [
-  { name: "nasif", age: 24, school: "SMA" },
+  { name: "nasif fuad", age: 24, school: "SMA" },
   { name: "ABS", age: 30, school: "JJS" },
   { name: "ABS", age: 20, school: "JJS" },
   { name: "ABS", age: 40, school: "JJS" },

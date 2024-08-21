@@ -56,10 +56,16 @@
 
 // Post_Method(newobj);
 // let n = 492483284858438457n;
-for (let i = 0; i < 10; i++) {
-  // if true, skip the remaining part of the body
-  if (i % 2 == 0) break;
-
-  console.log(i);
-  // 1, then 3, 5, 7, 9
+function check(name, yes, no) {
+  if (name == "nasif") yes();
+  else no();
 }
+
+function yes() {
+  console.log("Yes matched");
+}
+function no() {
+  console.log("didnot matched");
+}
+
+check("nasif", yes, no);
